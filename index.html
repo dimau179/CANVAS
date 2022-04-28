@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CANVAS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/x-icon" href="Usco_logo.png">
+        <script type="text/javascript" src="index.js"></script>    
+          
+    </head>
+    
+    <body>
+        <div class="game">
+            <script> startGame(); </script>
+        </div>
+        <div class="game"> <h1>CONTROLES</h1>
+            <button class="button button2" onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br>
+            <button class="button button1" onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+            <button class="button button1" onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br>
+            <button class="button button2" onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+        </div>
+        
+    </body>
+</html>
